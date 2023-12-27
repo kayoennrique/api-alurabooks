@@ -39,7 +39,7 @@ server.post('/public/registrar', (req, res) => {
     return
   }
 
-  fs.readFile("./users.json", (err, date) => {
+  fs.readFile("./users.json", (err, data) => {
     if (err) {
       const status = 401
       const message = err
@@ -47,7 +47,7 @@ server.post('/public/registrar', (req, res) => {
       return
     };
 
-    const json = JSON.parse(date.toString());
+    const json = JSON.parse(data.toString());
 
     const last_item_id = json.users.length > 0 ? json.users[json.users.length - 1].id : 0;
 
@@ -92,7 +92,7 @@ server.get('/public/lancamentos', (req, res) => {
       "isbn": "978-85-94188-60-1",
       "numberPages": 172,
       "publication": "2018-05-01",
-      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/main/public/images/books/bootstrap4.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/bootstrap4.png",
       "author": 4,
       "optionsPurchase": [
         {
@@ -132,7 +132,7 @@ server.get('/public/lancamentos', (req, res) => {
       "isbn": "978-85-94188-00-7",
       "numberPages": 502,
       "publication": "2017-08-01",
-      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/main/public/images/books/cangaceirojavascript.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/cangaceirojavascript.png",
       "author": 5,
       "optionsPurchase": [
         {
@@ -172,7 +172,7 @@ server.get('/public/lancamentos', (req, res) => {
       "isbn": "978-85-5519-076-6",
       "numberPages": 144,
       "publication": "2015-06-01",
-      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/main/public/images/books/css.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/css.png",
       "author": 6,
       "optionsPurchase": [
         {
@@ -217,7 +217,7 @@ server.get('/public/mais-vendidos', (req, res) => {
       "isbn": "978-65-86110-10-4",
       "numberPages": 246,
       "publication": "2020-04-01",
-      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/main/public/images/books/acessibilidade.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/acessibilidade.png",
       "author": 1,
       "optionsPurchase": [
         {
@@ -257,7 +257,7 @@ server.get('/public/mais-vendidos', (req, res) => {
       "isbn": "978-85-7254-036-0",
       "numberPages": 163,
       "publication": "2019-11-01",
-      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/main/public/images/books/angular.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/angular.png",
       "author": 2,
       "optionsPurchase": [
         {
@@ -297,7 +297,7 @@ server.get('/public/mais-vendidos', (req, res) => {
       "isbn": "978-65-86110-86-9",
       "numberPages": 138,
       "publication": "2021-10-01",
-      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/main/public/images/books/arquitetura.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/arquitetura.png",
       "author": 3,
       "optionsPurchase": [
         {
@@ -331,7 +331,7 @@ server.get('/public/mais-vendidos', (req, res) => {
   ])
 })
 
-server.use(/^(?!\/(public|books|authors|categories)).*$/, (req, res, next) => {
+server.use(/^(?!\/(public|books|authors|categorias)).*$/, (req, res, next) => {
   if (req.headers.authorization === undefined || req.headers.authorization.split(' ')[0] !== 'Bearer') {
     const status = 401
     const message = 'Token inválido'

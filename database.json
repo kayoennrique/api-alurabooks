@@ -1,14 +1,14 @@
 {
-  "requests": [
+  "pedidos": [
     {
       "id": 89019041,
-      "date": "2022-05-26",
+      "data": "2022-05-26",
       "delivery": "2022-05-26",
       "total": 29.9
     },
     {
       "id": 89019963,
-      "date": "2022-07-26",
+      "data": "2022-07-26",
       "delivery": "2022-08-01",
       "total": 58.8
     }
@@ -23,7 +23,7 @@
       "isbn": "978-65-86110-10-4",
       "numberPages": 246,
       "publication": "2020-04-01",
-      "imageCover": "https://raw.githubusercontent.com/viniciosneves/alurabooks/main/public/images/books/acessibilidade.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/acessibilidade.png",
       "author": 1,
       "optionsPurchase": [
         {
@@ -63,7 +63,7 @@
       "isbn": "978-85-7254-036-0",
       "numberPages": 163,
       "publication": "2019-11-01",
-      "imageCover": "https://raw.githubusercontent.com/viniciosneves/alurabooks/main/public/images/books/angular.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/angular.png",
       "author": 2,
       "optionsPurchase": [
         {
@@ -103,7 +103,7 @@
       "isbn": "978-65-86110-86-9",
       "numberPages": 138,
       "publication": "2021-10-01",
-      "imageCover": "https://raw.githubusercontent.com/viniciosneves/alurabooks/main/public/images/books/arquitetura.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/arquitetura.png",
       "author": 3,
       "optionsPurchase": [
         {
@@ -143,7 +143,7 @@
       "isbn": "978-85-94188-60-1",
       "numberPages": 172,
       "publication": "2018-05-01",
-      "imageCover": "https://raw.githubusercontent.com/viniciosneves/alurabooks/main/public/images/books/bootstrap4.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/bootstrap4.png",
       "author": 4,
       "optionsPurchase": [
         {
@@ -183,7 +183,7 @@
       "isbn": "978-85-94188-00-7",
       "numberPages": 502,
       "publication": "2017-08-01",
-      "imageCover": "https://raw.githubusercontent.com/viniciosneves/alurabooks/main/public/images/books/cangaceirojavascript.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/cangaceirojavascript.png",
       "author": 5,
       "optionsPurchase": [
         {
@@ -223,7 +223,7 @@
       "isbn": "978-85-5519-076-6",
       "numberPages": 144,
       "publication": "2015-06-01",
-      "imageCover": "https://raw.githubusercontent.com/viniciosneves/alurabooks/main/public/images/books/css.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/css.png",
       "author": 6,
       "optionsPurchase": [
         {
@@ -263,7 +263,7 @@
       "isbn": "978-85-94188-06-9",
       "numberPages": 170,
       "publication": "2017-09-01",
-      "imageCover": "https://raw.githubusercontent.com/viniciosneves/alurabooks/main/public/images/books/websemantica.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/websemantica.png",
       "author": 7,
       "optionsPurchase": [
         {
@@ -303,7 +303,7 @@
       "isbn": "978-65-86110-98-2",
       "numberPages": 189,
       "publication": "2022-01-01",
-      "imageCover": "https://raw.githubusercontent.com/viniciosneves/alurabooks/main/public/images/books/kafka.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/kafka.png",
       "author": 8,
       "optionsPurchase": [
         {
@@ -343,7 +343,7 @@
       "isbn": "978-85-5519-150-3",
       "numberPages": 187,
       "publication": "2016-01-01",
-      "imageCover": "https://raw.githubusercontent.com/viniciosneves/alurabooks/main/public/images/books/node.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/node.png",
       "author": 9,
       "optionsPurchase": [
         {
@@ -383,7 +383,7 @@
       "isbn": "978-65-86110-77-7",
       "numberPages": 178,
       "publication": "2021-07-01",
-      "imageCover": "https://raw.githubusercontent.com/viniciosneves/alurabooks/main/public/images/books/typescript.png",
+      "imageCover": "https://raw.githubusercontent.com/kayoennrique/alurabooks/develop-2/public/images/books/typescript.png",
       "author": 10,
       "optionsPurchase": [
         {
